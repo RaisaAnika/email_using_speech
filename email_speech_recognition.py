@@ -60,7 +60,7 @@ def get_email_info():
     subject = get_msg()
     talk('What will be in your email body')
     message = get_msg()
-    send_email(receiver, subject, message)
+    send_email(receiver, subject, message) #sending parameter to function send_email
     talk('Hey lazy ass. Your email is sent')
     talk('Do you want to send more email?')
     send_more = get_msg()
